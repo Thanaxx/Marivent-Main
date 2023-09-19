@@ -59,14 +59,26 @@ function Nav() {
               </li>
 
               <li>
+                <NavLink to="/lascasasweddings" onClick={CloseMenu}>
+                  LAS CASAS WEDDINGS
+                </NavLink>
+              </li>
+
+              <li>
                 <NavLink to="/vshotel" onClick={CloseMenu}>
                   VS HOTEL
                 </NavLink>
               </li>
 
               <li>
+                <NavLink to="/vsclub" onClick={CloseMenu}>
+                  VICTORIA SPORTS CLUB
+                </NavLink>
+              </li>
+
+              <li>
                 <NavLink to="/offers" onClick={CloseMenu}>
-                  OFFERS
+                  SPECIAL OFFERS
                 </NavLink>
               </li>
 
@@ -79,8 +91,6 @@ function Nav() {
             </ul>
           </NavMenu>
         </NavStick>
-      
-    
     </>
   )
 }

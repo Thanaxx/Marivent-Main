@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../../Components/Hero/Hero';
 import Intro from '../../Components/Intro/Intro';
 import Hotels from '../../Components/Hotels/Hotels';
-import Tagline from '../../Components/Tagline/Tagline';
+import HighlightOffers from '../../Components/Highlight/Offers';
 
 function Home() {
   return (
@@ -10,6 +10,7 @@ function Home() {
         <Hero/>
         <Intro/>
         <Hotels/>
+        <HighlightOffers />
     </>
   )
 }

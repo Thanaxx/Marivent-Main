@@ -1,64 +1,138 @@
 import styled from "styled-components";
 
 export const ContactWrap = styled.div`
-    /* background-color: grey; */
-    padding: 80px 50px;
-
-    @media screen and (max-width: 1000px) {
-        padding: 50px 50px;
-    }
+    margin: 50px 0;
 `;
 
-export const ContactBox = styled.div`
-    /* background-color: green; */
-    display: flex;
-    justify-content: space-around;
-    text-align: left;
-    flex-direction: row;
-    flex-wrap: wrap;
+export const ContactTitle = styled.div`
 
-    @media screen and (max-width: 1000px) {
+    h1{
+        font-family: 'Playfair Display', serif;
+        color: #001C41;
+        font-weight: 400;
+        font-size: 40px;
         text-align: center;
-    }
-`;
 
-export const ContactElement = styled.div`
-    /* background-color: hotpink; */
-    flex: 33.33%;
-    margin: auto;
-    text-align: center;
-
-    @media screen and (max-width: 1000px) {
-        margin-bottom: 35px;
-    }
-`;
-
-export const ContactLogo = styled.div`
-    img{
-        width: 250px;
-    }
-`;
-
-export const ContactDetails = styled.div`
-    color: #001C41;
-
-    li{
-        list-style-type: none;
-        text-decoration: none;
-        padding: 3px 0;
-        font-size: 16px;
-
-        @media screen and (max-width: 1025px) {
-            font-size: 13px;
+        @media screen and (max-width: 768px){
+            font-size: 35px;
         }
     }
+
+    margin-bottom: 50px;
 `;
 
-export const ContactSocials = styled.div`
-    margin-top: 15px;
+export const ContactBataan = styled.div`
+    padding-bottom: 50px;
+`;
+
+export const ContactImg = styled.div`
+    text-align: center;
 
     img{
-        width: 30px;
-        margin-right: 10px;
+        width: 300px;
+    }
+`;
+
+export const ContactListLcbb = styled.div`
+    width: 80%;
+    margin: 20px auto 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+
+    @media screen and (max-width: 1366px){
+        width: 90%;
+    }
+
+    @media screen and (max-width: 768px){
+        width: 95%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+`;
+
+export const ContactListQc = styled.div`
+    width: 80%;
+    margin: 20px auto 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+
+    @media screen and (max-width: 1366px){
+        width: 90%;
+    }
+
+    @media screen and (max-width: 768px){
+        width: 95%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+`;
+
+export const ContactListWed = styled.div`
+    width: 80%;
+    margin: 20px auto 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+    @media screen and (max-width: 1366px){
+        width: 90%;
+    }
+
+    @media screen and (max-width: 768px){
+        width: 95%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+`;
+
+export const ContactListVs = styled.div`
+    width: 80%;
+    margin: 20px auto 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+
+    @media screen and (max-width: 1366px){
+        width: 90%;
+    }
+
+    @media screen and (max-width: 768px){
+        width: 95%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+`;
+
+export const ContactListSports = styled.div`
+    width: 80%;
+    margin: 20px auto 40px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+
+    @media screen and (max-width: 1366px){
+        width: 90%;
+    }
+
+    @media screen and (max-width: 768px){
+        width: 95%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+`;
+
+export const ContactCol = styled.div`
+    text-align: center;
+
+    h2{
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        color: #001C41;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    p{
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+        color: #3E3E3E;
+        padding: 3px 0;
     }
 `;

@@ -36,13 +36,16 @@ export const NavStick = styled.div`
 
 export const NavMenu = styled.div`
     /* background-color: rosybrown; */
-    padding: 0px 150px 0 150px;
+    padding: 0px 300px 0 300px;
+
+    @media screen and (max-width: 1366px){
+        padding: 0px 120px 0 120px;
+    }
 
     ul{
         align-items: 'center';
         justify-content: space-around;
         display: flex;
-        
     }
 
     li{
@@ -105,7 +108,7 @@ export const NavLogoB = styled.div`
 export const NavLink = styled(Link)`
         text-decoration: none;
         color: #fff;
-        font-size: 14px;
+        font-size: 12px;
 
         @media screen and (max-width: 1000px){
             font-size: 15px;

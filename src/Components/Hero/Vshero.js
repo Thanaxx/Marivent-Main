@@ -1,47 +1,54 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import {MainCarousel} from '../../Styles/HeroStyle';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import {PropertyMain, Btitle, Bcover, Blogo, Bdesc, Bbuttons, BListOffersB, ListOffers} from '../../Styles/PropertyStyle';
+import BataanOffers from '../../data/vshotel';
 
 function Vshero() {
   return (
     <>
-        <MainCarousel data-aos="fade">
-        <Carousel className='carousel' 
-            width dynamicHeight={true} 
-            autoPlay={true} 
-            stopOnHover={false} 
-            showArrows={false} 
-            showThumbs={false} 
-            infiniteLoop={true} 
-            fade={true} 
-            showStatus={false} 
-            transition={1500}
-            swipeable={false}
-            animationHandler='fade'
-        >
-                <div className='cell'>
-                    <img src="/images/vshotel/carousel/01 VS.jpg" alt='VS Hotel Slider1' />
-                </div>
-                
-                <div className='cell'>
-                    <img src="/images/vshotel/carousel/02 VS.jpg" alt='VS Hotel Slider2' />
-                </div>
-            
-                <div className='cell'>
-                    <img src="/images/vshotel/carousel/03 VS.jpg" alt='VS Hotel Slider3' />
-                </div>
+        <PropertyMain>
+            <Btitle>
+                <h1>Hotel</h1>
+            </Btitle>
 
-                <div className='cell'>
-                    <img src="/images/vshotel/carousel/04 VS.jpg" alt='VS Hotel Slider4' />
-                </div>
+            <Bcover>
+                <img src="/images/vshotel/carousel/01 VS.jpg" alt="" />
+            </Bcover>
 
-                <div className='cell'>
-                    <img src="/images/vshotel/carousel/05 VS.jpg" alt='VS Hotel Slider5' />
-                </div>
-            </Carousel>
+            <Blogo>
+                <img src="/images/logo/Logo VS blue.png" alt="" />
+            </Blogo>
 
-        </MainCarousel>
+            <Bdesc>
+                <p>
+                    A hotel dedicated to sports, fitness, and wellness. VS Hotel aims to
+                    be a space where travelers can relax into the comfort of our well-designed
+                    rooms, explore the city, whilst not having to compromise their healthy and
+                    active lifestyle. Our state-of-the-art sports, fitness, and wellness facilities
+                    gives one access to unlimited activities and services to choose from.
+                </p>
+
+            <Bbuttons>
+                <a href="https://staahmax.staah.net/be/indexpackdetail?propertyId=MzgzMA==&individual=true"><button>INQUIRE NOW</button></a>
+                <a href="https://vshotel.ph/SpecialOffers"><button>SEE OFFERS</button></a>
+            </Bbuttons>
+            </Bdesc>
+
+            {/**list of offers */}
+
+            <BListOffersB>
+            {BataanOffers.map((items, index) => (
+                <>
+                <ListOffers>
+                    <img src={items.image} alt="" />
+                    <h1>{items.name}</h1>
+                    <p>{items.desc}</p>
+                    <a href={items.url}><button>INQUIRE NOW</button></a>
+                </ListOffers>
+                </>
+            ))}
+            </BListOffersB>
+
+        </PropertyMain>
     </>
   )
 }

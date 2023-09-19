@@ -1,45 +1,67 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import {MainCarousel} from '../../Styles/HeroStyle';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import {PropertyMain, Btitle, Bcover, Blogo, Bdesc, Bbuttons, BListOffers, ListOffers} from '../../Styles/PropertyStyle';
+import BataanOffers from '../../data/bataan';
 
 function BataanHero() {
   return (
-    <MainCarousel data-aos="fade">
-    <Carousel className='carousel' 
-          width dynamicHeight={true} 
-          autoPlay={true} 
-          stopOnHover={false} 
-          showArrows={false} 
-          showThumbs={false} 
-          infiniteLoop={true} 
-          fade={true} 
-          showStatus={false} 
-          transition={1500}
-          swipeable={false}
-          animationHandler='fade'
-      >
-            <div className='cell'>
-              <img src="/images/bataan/btcarousel/01 LCBB.jpg" alt='Las Casas Bataan Slider1' />
-            </div>
-            
-            <div className='cell'>
-              <img src="/images/bataan/btcarousel/02 LCBB.jpg" alt='Las Casas Bataan Slider2' />
-            </div>
-          
-            <div className='cell'>
-              <img src="/images/bataan/btcarousel/03 LCBB.jpg" alt='Las Casas Bataan Slider3' />
-            </div>
+    <>
+      <PropertyMain>
+        <Btitle>
+          <h1>Heritage Collections</h1>
+        </Btitle>
 
-            <div className='cell'>
-              <img src="/images/bataan/btcarousel/04 LCBB.jpg" alt='Las Casas Bataan Slider4' />
-            </div>
+        <Bcover>
+          <img src="/images/bataan/btcarousel/01 LCBB.jpg" alt="" />
+        </Bcover>
 
-            <div className='cell'>
-              <img src="/images/bataan/btcarousel/05 LCBB.jpg" alt='Las Casas Bataan Slider5' />
-            </div>
-          </Carousel>
-    </MainCarousel>
+        <Blogo>
+          <img src="/images/logo/Logo LCBB blue.png" alt="" />
+        </Blogo>
+
+        <Bdesc>
+          <p>
+            Las Casas Filipinas de Acuzar in Bataan is a beach resort, convention
+            center, and heritage destination rolled into one. With its many facets,
+            it is truly a unique destination with much to offer for every traveler.
+          </p>
+        <br/>
+
+          <p>
+              Home to Jose Acuzar’s collection of heritage houses that have been salvaged
+              from total ruin and neglect, these houses were then renovated and rebuilt by
+              a team of artisans and craftsmen in the town of Bagac, Bataan. Las Casas
+              features the finest of Filipino craftsmanship, artistry, and skill giving
+              the property a look and feel that is distinctive and its own.
+          </p>
+          <br/>
+
+        <p>
+            Las Casas blends the charm and character of the nation’s past with exceptionally
+            welcoming and personalized service in a relaxed beach resort and hotel setting.
+        </p>
+
+          <Bbuttons>
+            <a href="https://staahmax.staah.net/be/index_be?propertyId=MzcxNQ==&individual=true"><button>INQUIRE NOW</button></a>
+            <a href="https://lascasasfilipinas.com/SpecialOffers"><button>SEE OFFERS</button></a>
+          </Bbuttons>
+        </Bdesc>
+
+        {/**list of offers */}
+         <BListOffers>
+          {BataanOffers.map((items, index) => (
+            <>
+              <ListOffers>
+                <img src={items.image} alt="" />
+                <h1>{items.name}</h1>
+                <p>{items.desc}</p>
+                <a href={items.url}><button>INQUIRE NOW</button></a>
+              </ListOffers>
+            </>
+          ))}
+        </BListOffers>
+
+      </PropertyMain>
+    </>
   )
 }
 

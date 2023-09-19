@@ -1,114 +1,71 @@
 import styled from "styled-components";
 
-export const OffersWrap = styled.div`
-    /* background-color: grey; */
-    padding: 20px 50px;
-
-    @media screen and (max-width: 1025px) {
-        padding: 20px;
-    }
+export const SpecialOffersWrap = styled.div`
+    margin-bottom: 80px;
 `;
 
-export const OffersBox = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-`;
-
-export const OffersElement = styled.div`
-    width: 50%;
+export const Sptitle = styled.div`
     text-align: center;
-    /* background-color: salmon; */
-    margin: 20px 0;
-    padding: 20px 0;
-
-    @media screen and (max-width: 1025px) {
-        padding: 10px;
-        width: 50%;
-    }
-
-    @media screen and (max-width: 780px) {
-        width: 100%;
-        padding: 0;
-    }
-`;
-
-export const OffersImage = styled.div`
-    img{
-        width: 550px;
-        height: 350px;
-
-        @media screen and (max-width: 1025px) {
-            width: 400px;
-            height: 300px;
-        }
-
-        @media screen and (max-width: 780px) {
-            width: 700px;
-            height: 300px;
-        }
-
-        @media screen and (max-width: 540px) {
-            width: 330px;
-            height: 300px;
-        }
-    }
-`;
-
-export const OffersDetails = styled.div`
-    width: 550px;
-    margin: auto;
-    /* background-color: goldenrod; */
-
-    @media screen and (max-width: 1025px) {
-        width: auto;
-    }
-
-    @media screen and (max-width: 780px) {
-        width: 100%;
-    }
+    margin: 50px 0;
 
     h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 50px;
         color: #001C41;
-        letter-spacing: 1px;
-        font-size: 28px;
     }
+`;
 
-    .title{
-        color: #565656;
-        margin-top: 10px;
-        font-size: 16px;
+export const SpBody = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    width: 80%;
+    margin: auto;
+`;
+
+export const SpCard = styled.div`
+    text-align: center;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 550px;
+        margin-bottom: 10px;
     }
 
     p{
-        padding: 5px 0;
+        font-size: 16px;
+        font-family: 'Jost', sans-serif;
+        color: #373737;
+    }
+
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
         color: #001C41;
-        font-size: 15px;
+        font-size: 35px;
+        padding-top: 10px;
     }
 
-    .line-b{
-        border-bottom: 1px solid #757575;
+    .rate{
+        padding-bottom: 10px;
     }
-`;
 
-export const OffersBtn = styled.div`
-    margin-top: 15px;
-`;
+    button{
+        margin-top: 20px;
+        padding: 10px 40px;
+        background-color: #001C41;
+        border-radius: 2px;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
 
-export const LearnMoreBtn = styled.button`
-    background-color: #C39321;
-    color: #FFF;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    padding: 12px 20px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: 0.3s;
-
-    :hover{
-        background-color: #81631C;
-        
+    button:hover{
+        transform: scale(1.1);
     }
 `;

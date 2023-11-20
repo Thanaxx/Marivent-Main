@@ -1,8 +1,8 @@
 const HighlightOffers = [
     {
-        image: '/images/highlight/hotel.jpg',
-        name: 'Room Only Offer',
-        url: 'https://vshotel.com.ph/SpecialOffers'
+        image: '/images/bataan/CasAdventure at Las Casas Filipinas de Acuzar_1.jpg',
+        name: 'CasAdventure at Las Casas Filipinas de Acuzar',
+        url: 'https://lascasasfilipinas.com/SpecialOffers'
     },
 
     {

@@ -9,39 +9,6 @@ function ConInfo() {
                 <h1>General Contact Information</h1>
             </ContactTitle>
 
-            {/**BATAAN */}
-            <ContactBataan>
-                <ContactImg>
-                    <img src="/images/logo/Logo LCBB blue.png" alt="" />
-                </ContactImg>
-
-                <ContactListLcbb>
-                    <ContactCol>
-                        <h2>Reservations Team</h2>
-                        <p>reservations@lascasasfilipinas.com</p>
-                        <p>+63917-872-9361 or +63915-851-9098</p>
-                    </ContactCol>
-
-                    <ContactCol>
-                        <h2>Weddings Social Events Team</h2>
-                        <p>weddings@lascasasfilipinas.com</p>
-                        <p>+63917-872-9368</p>
-                    </ContactCol>
-
-                    <ContactCol>
-                        <h2>Corporate Events</h2>
-                        <p>corporatesales@lascasasfilipinas.com</p>
-                        <p>+63917-872-9361</p>
-                    </ContactCol>
-
-                    <ContactCol>
-                        <h2>Government Sales</h2>
-                        <p>governmentsale@lascasasfilipinas.com</p>
-                        <p>+63-917-803-9476</p>
-                    </ContactCol>
-                </ContactListLcbb>
-            </ContactBataan>
-
             {/**QUEZON */}
             <ContactBataan>
                 <ContactImg>
@@ -64,14 +31,42 @@ function ConInfo() {
                     <ContactCol>
                         <h2>Private Dining</h2>
                         <p>privatedining@lascasasqc.com</p>
-                        <p>+63933-822-4522</p>
+                        <p>+63915-952-3276</p>
                     </ContactCol>
 
                     <ContactCol>
                         <h2>Corporate Events</h2>
-                        <p>+63946-154-3043</p>
+                        <p>privatedining@lascasasqc.com</p>
+                        <p>+63915-952-3276</p>
                     </ContactCol>
                 </ContactListQc>
+            </ContactBataan>
+
+            {/**BATAAN */}
+            <ContactBataan>
+                <ContactImg>
+                    <img src="/images/logo/Logo LCBB blue.png" alt="" />
+                </ContactImg>
+
+                <ContactListWed>
+                    <ContactCol>
+                        <h2>Reservations Team</h2>
+                        <p>reservations@lascasasfilipinas.com</p>
+                        <p>+63919-056-7789 or (632) 8860 5961</p>
+                    </ContactCol>
+
+                    <ContactCol>
+                        <h2>Weddings Social Events Team</h2>
+                        <p>weddings@lascasasfilipinas.com</p>
+                        <p>+63917-872-9368</p>
+                    </ContactCol>
+
+                    <ContactCol>
+                        <h2>MICE</h2>
+                        <p>mice@lascasasfilipinas.com</p>
+                    </ContactCol>
+
+                </ContactListWed>
             </ContactBataan>
 
             {/**WEDDINGS */}
@@ -115,9 +110,9 @@ function ConInfo() {
                     </ContactCol>
 
                     <ContactCol>
-                        <h2>Inquiries and Bookings</h2>
-                        <p>reservations@vshotel.ph</p>
-                        <p>+63927-370-6269</p>
+                        <h2>Inquiries and Reservations</h2>
+                        <p>reservations@vshotel.com.ph</p>
+                        <p>+63919-056-7788 or (632) 8860-5960</p>
                     </ContactCol>
                 </ContactListVs>
             </ContactBataan>
@@ -131,8 +126,8 @@ function ConInfo() {
              <ContactListSports>
                  <ContactCol>
                      <h2>Corporate, Weddings, & Social Events</h2>
-                     <p>events@vshotel.ph</p>
-                     <p>+63960-604-0808</p>
+                     <p>info@victoriasportsclub.com.ph</p>
+                     <p>+63 927 559 7631 or +63 927 559 7630</p>
                  </ContactCol>
              </ContactListSports>
          </ContactBataan>

@@ -1,13 +1,13 @@
 export const SpecialOffers = [
-    {
-        image: '/images/offers/spoffers/hotel.jpg',
-        property: 'VS Hotel',
-        booking: 'June 17, 2023 to October 30, 2023',
-        title: 'Room Only Offer',
-        rate: 'Rate starts at PHP 1,700 nett',
-        desc: "Simple is still fun. Enjoy a delightful stay in VS Hotel Convention Center's Room Only offer. A budget-friendlyoption that doesn't compromise comfort. Experience this perfect balance of affordability and comfort.",
-        url: 'https://vshotel.ph/SpecialOffers'
-    },
+    // {
+    //     image: '/images/offers/spoffers/hotel.jpg',
+    //     property: 'VS Hotel',
+    //     booking: 'June 17, 2023 to October 30, 2023',
+    //     title: 'Room Only Offer',
+    //     rate: 'Rate starts at PHP 1,700 nett',
+    //     desc: "Simple is still fun. Enjoy a delightful stay in VS Hotel Convention Center's Room Only offer. A budget-friendlyoption that doesn't compromise comfort. Experience this perfect balance of affordability and comfort.",
+    //     url: 'https://vshotel.ph/SpecialOffers'
+    // },
 
     {
         image: '/images/bataan/Heritage and Wellness OasisHeritage and Wellness Oasis_1.jpg',

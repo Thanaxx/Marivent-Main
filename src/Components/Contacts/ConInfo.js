@@ -67,7 +67,6 @@ function ConInfo() {
                         <p>mice@lascasasfilipinas.com</p>
                         <p>+63917-872-9367</p>
                     </ContactCol>
-
                 </ContactListWed>
             </ContactBataan>
 

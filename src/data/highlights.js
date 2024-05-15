@@ -1,13 +1,13 @@
 const HighlightOffers = [
     {
-        image: '/images/bataan/CasAdventure at Las Casas Filipinas de Acuzar_1.jpg',
-        name: 'CasAdventure at Las Casas Filipinas de Acuzar',
-        url: 'https://lascasasfilipinas.com/SpecialOffers'
+        image: '/images/highlight/premiere_mem.jpg',
+        name: 'Premiere Membership',
+        url: 'https://www.victoriasportsclub.com/offers'
     },
 
     {
-        image: '/images/highlight/Heritage and Wellness OasisHeritage and Wellness Oasis_1.jpg',
-        name: 'Heritage and Wellness Oasis',
+        image: '/images/highlight/bataan_flashsale.jpg',
+        name: 'Flash Sale',
         url: 'https://lascasasfilipinas.com/SpecialOffers'
     },
 

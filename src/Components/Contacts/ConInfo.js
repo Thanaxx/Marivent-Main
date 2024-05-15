@@ -17,20 +17,14 @@ function ConInfo() {
 
                 <ContactListQc>
                     <ContactCol>
-                        <h2>Inquiries and Reservations</h2>
+                        <h2>Restaurant Reservation</h2>
                         <p>contact@lascasasqc.com</p>
                         <p>+63917-136-6796</p>
                     </ContactCol>
 
                     <ContactCol>
                         <h2>Weddings and Social Events</h2>
-                        <p>weddings@lascasasqc.com</p>
-                        <p>+63956-346-9582</p>
-                    </ContactCol>
-
-                    <ContactCol>
-                        <h2>Private Dining</h2>
-                        <p>privatedining@lascasasqc.com</p>
+                        <p>contact@lascasasqc.com</p>
                         <p>+63915-952-3276</p>
                     </ContactCol>
 
@@ -39,6 +33,13 @@ function ConInfo() {
                         <p>privatedining@lascasasqc.com</p>
                         <p>+63915-952-3276</p>
                     </ContactCol>
+
+                    <ContactCol>
+                        <h2>Private Dining</h2>
+                        <p>privatedining@lascasasqc.com</p>
+                        <p>+63915-952-3276</p>
+                    </ContactCol>
+
                 </ContactListQc>
             </ContactBataan>
 
@@ -62,8 +63,9 @@ function ConInfo() {
                     </ContactCol>
 
                     <ContactCol>
-                        <h2>MICE</h2>
+                        <h2>Corporate and Government Sales</h2>
                         <p>mice@lascasasfilipinas.com</p>
+                        <p>+63917-872-9367</p>
                     </ContactCol>
 
                 </ContactListWed>
@@ -106,13 +108,13 @@ function ConInfo() {
                     <ContactCol>
                         <h2>Corporate, Weddings, & Social Events</h2>
                         <p>events@vshotel.com.ph</p>
-                        <p>+63960-604-0808</p>
+                        {/* <p>+63960-604-0808</p> */}
                     </ContactCol>
 
                     <ContactCol>
                         <h2>Inquiries and Reservations</h2>
                         <p>reservations@vshotel.com.ph</p>
-                        <p>+63919-056-7788 or (632) 8860-5960</p>
+                        <p>+63919-056-7788 or +632-8860-5960</p>
                     </ContactCol>
                 </ContactListVs>
             </ContactBataan>
@@ -125,9 +127,9 @@ function ConInfo() {
 
              <ContactListSports>
                  <ContactCol>
-                     <h2>Corporate, Weddings, & Social Events</h2>
+                     <h2>Inquiries and Bookings</h2>
                      <p>info@victoriasportsclub.com.ph</p>
-                     <p>+63 927 559 7631 or +63 927 559 7630</p>
+                     <p>+63927-559-7631</p>
                  </ContactCol>
              </ContactListSports>
          </ContactBataan>

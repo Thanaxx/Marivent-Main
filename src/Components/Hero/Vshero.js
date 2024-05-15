@@ -1,6 +1,6 @@
 import React from 'react';
 import {PropertyMain, Btitle, Bcover, Blogo, Bdesc, Bbuttons, BListOffersB, ListOffers} from '../../Styles/PropertyStyle';
-import BataanOffers from '../../data/vshotel';
+// import BataanOffers from '../../data/vshotel';
 
 function Vshero() {
   return (
@@ -29,13 +29,13 @@ function Vshero() {
 
             <Bbuttons>
                 <a href="https://staahmax.staah.net/be/indexpackdetail?propertyId=MzgzMA==&individual=true"><button>INQUIRE NOW</button></a>
-                <a href="https://vshotel.ph/SpecialOffers"><button>SEE OFFERS</button></a>
+                <a href="https://vshotel.com.ph/SpecialOffers"><button>SEE OFFERS</button></a>
             </Bbuttons>
             </Bdesc>
 
             {/**list of offers */}
 
-            <BListOffersB>
+            {/* <BListOffersB>
             {BataanOffers.map((items, index) => (
                 <>
                 <ListOffers>
@@ -46,7 +46,7 @@ function Vshero() {
                 </ListOffers>
                 </>
             ))}
-            </BListOffersB>
+            </BListOffersB> */}
 
         </PropertyMain>
     </>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {PropertyMain, Btitle, Bcover, Blogo, Bdesc, Bbuttons, BListOffers, ListOffers} from '../../Styles/PropertyStyle';
-import BataanOffers from '../../data/bataan';
+// import BataanOffers from '../../data/bataan';
 
 function BataanHero() {
   return (
@@ -46,7 +46,7 @@ function BataanHero() {
           </Bbuttons>
         </Bdesc>
 
-        {/**list of offers */}
+        {/**list of offers 
          <BListOffers>
           {BataanOffers.map((items, index) => (
             <>
@@ -58,7 +58,7 @@ function BataanHero() {
               </ListOffers>
             </>
           ))}
-        </BListOffers>
+        </BListOffers> */}
 
       </PropertyMain>
     </>

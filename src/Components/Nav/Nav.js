@@ -76,11 +76,11 @@ function Nav() {
                 </NavLink>
               </li>
 
-              <li>
+              {/* <li>
                 <NavLink to="/offers" onClick={CloseMenu}>
                   SPECIAL OFFERS
                 </NavLink>
-              </li>
+              </li> */}
 
               <li>
                 <NavLink to="/contact" onClick={CloseMenu}>
